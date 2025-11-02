@@ -5,7 +5,7 @@ import dao
 @app.route('/')
 def index():
     categories = dao.load_categories()
-    products = dao.load_products(cate_id=request.args.get('category_id'), kw=request.args.get('kw'))
+    products = dao.load_products(cate_id=request.args.get('category_id'), kw=request.args.get('keyword'))
 
     return render_template('index.html', categories=categories, products=products)
 

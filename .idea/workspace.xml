@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a33d2b7-b2fd-44c8-a96f-4a5adb487289" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/saleapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/saleapp_flaskproj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saleapp_flaskproj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/saleapp/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/saleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/saleapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
