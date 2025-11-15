@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">E-commerce</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trang chủ</a>
+                </li>
+                {% for c in categories %}
+                <li class="nav-item">
+                    <a class="nav-link" href="/?category_id={{ c.id }}">{{ c.name }}</a>
+                </li>
+                {% endfor %}
+                {% if current_user.is_authenticated %}
+                <li class="nav-item">
+                    <img src="{{ current_user.avatar }}" alt="{{ current_user.name }}" class="rounded-circle" width="30px">
+                    {{ current_user.name }}
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('register_view') }}">Đăng ký</a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('login_view') }}">Đăng nhập</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('register_view') }}">Đăng ký</a>
+                </li>
+                {% endif %}
+
+            </ul>
+
+            <form class="d-flex">
+                <input class="form-control me-2" name="keyword" type="text" placeholder="Nhập từ khóa....">
+                <button class="btn btn-primary" type="submit">Tìm</button>
+            </form>
+        </div>
+    </div>
+</nav>

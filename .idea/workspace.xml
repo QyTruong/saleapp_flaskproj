@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a33d2b7-b2fd-44c8-a96f-4a5adb487289" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/saleapp/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/saleapp/templates/layout/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/saleapp/templates/layout/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/saleapp/templates/layout/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/saleapp/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/saleapp/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/saleapp_flaskproj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saleapp_flaskproj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/saleapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/saleapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/saleapp/dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/dao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/saleapp/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/saleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/saleapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/saleapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,16 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.dao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.index.executor&quot;: &quot;Run&quot;,
-    &quot;Python.models.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.dao.executor": "Run",
+    "Python.index.executor": "Run",
+    "Python.models.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\saleapp_flaskproj\app\saleapp\templates" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.index">
     <configuration name="dao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="saleapp_flaskproj" />
