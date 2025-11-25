@@ -1,7 +1,7 @@
 from flask import render_template, request
 from werkzeug.utils import redirect
 
-from app.saleapp import app, login
+from app import app, login
 from flask_login import login_user
 import dao
 

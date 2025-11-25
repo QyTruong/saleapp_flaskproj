@@ -2,7 +2,7 @@ from flask_admin import Admin, expose, BaseView
 from flask_admin.contrib.sqla import ModelView
 from werkzeug.utils import redirect
 
-from app.saleapp import app, db
+from app import app, db
 from models import Product, Category, UserRole
 from flask_login import current_user, logout_user
 

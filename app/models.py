@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Boolean, Float, ForeignKey, Enum, null
 from sqlalchemy.orm import relationship
 from flask_login import UserMixin
-from app.saleapp import app, db
+from app import app, db
 from enum import Enum as UserEnum
 
 
